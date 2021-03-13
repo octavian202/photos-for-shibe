@@ -20,7 +20,7 @@ async function getPhotos(count) {
   return data;
 }
 
-getPhotos(100)
+getPhotos(29)
   .then((data) => {
     console.log(data);
     return {
